@@ -1,0 +1,99 @@
+body{
+    background-color: #1A2332;
+    font-family: lato;
+    color: #fff;
+}
+h1{
+    text-align: center;
+    margin: 35px auto 20px auto;
+}
+::marker{
+    color: transparent;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 450px;
+    margin: auto;
+    padding: 12px;
+    background-color:#414C52 ;
+    border-radius: 0.5rem;
+    transition: all 0.4s;
+}
+form:hover{
+    box-shadow: 0 0 35px #000 ;
+}
+label{
+    font-size: larger;
+    text-align: center;
+}
+input{
+    resize: none;
+    font-family: lato;
+    width: 400px;
+    margin: 15px;
+    margin-top: 3px;
+    padding: 7px;
+    border: 0;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    outline-style: none;
+}
+input:hover{
+    box-shadow: 0 0 10px #000 ;
+}
+.agregar{
+    background-color: #D0B11E;
+    color: #000;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 10px;
+    width: 95px;
+    height: 35px;
+    box-shadow: 0 0 10px #000 ;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.agregar:hover{
+    background-color: #FED000;
+    width: 100px;
+    height: 45px;
+}
+
+.list{
+    display: grid;
+    justify-items: center;
+    gap: 7px;
+    margin: 15px 0;
+    padding-left: 0;
+}
+.item{
+    overflow-wrap: break-word;
+    background-color: #2E313A;
+    padding: 12px;
+    border: 0;
+    border-radius: .5rem;
+    max-width: 450px;
+    transition: all 0.4s;
+    font-size: large;
+}
+.item:hover{
+    box-shadow: 0 0 7px #777;
+}
+.delete{
+    margin: .2rem .5rem;
+    border: 0;
+    border-radius: .5rem;
+    padding: .4rem .8rem;
+    cursor: pointer;
+    background-color: #B52D21;
+    transition: all 0.4s;
+    color: #eee;
+}
+.delete:hover{
+    background-color: #E9351E;
+    color: #000;
+    box-shadow: 0 0 6px #000;
+}
